@@ -1,0 +1,264 @@
+.navbar {
+    padding: 18px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+}
+
+.navbar-brand:hover {
+    color: #c85b78;
+}
+
+.nav-link {
+    color: #333;
+    font-size: 14px;
+    margin: 0 7px;
+}
+
+.nav-link:hover {
+    color: #c85b78;
+}
+
+.navbar-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar-icons a:hover {
+    color: #c85b78;
+}
+.about {
+    /* max-height: 550px; */
+    padding: 100px 0;
+    background-image: url("../images/abouthero1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.about-content{
+    max-width: 520px;
+}
+.about-content p{
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #c85b78;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.about-content h1{
+    font-size: 48px;
+    line-height: 1.2;
+    color: #222;
+    margin-bottom: 20px;
+}
+.about-content span{
+    display: block;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+}
+.about-content a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 25px;
+    background-color: #c85b78;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.about-content a:hover{
+    background-color:#222;
+}
+.about-hero{
+    width: 100%;
+}
+.about-hero img{
+    width: 95%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+.our-story{
+    padding: 90px 0;
+    background-color: #f8f5f2;
+}
+.story{
+    width: 100%;
+}
+.story img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+}
+.story-content{
+    max-width: 520px;
+    padding-left: 40px;
+}
+.story-content p{
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #c85b78;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.story-content h2{
+    font-size: 40px;
+    line-height: 1.2;
+    color: #222;
+    margin-bottom: 20px;
+}
+.story-content span{
+    display: block;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+.why-choose-lumora {
+    padding: 90px 0;
+    background-color: #ffffff;
+}
+
+.why-choose-lumora .heading {
+    margin-bottom: 50px;
+}
+
+.lumora-item {
+    padding: 15px;
+}
+.why-choose-lumora .heading h2{
+    font-size: 34px;
+    font-weight: 600;
+    color: #211b1b;
+    margin-bottom: 10px;
+}
+.why-choose-lumora .heading p{
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.lumora-item i {
+    font-size: 30px;
+    color: #c85b78;
+    margin-bottom: 20px;
+}
+
+.lumora-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #211b1b;
+    margin-bottom: 10px;
+}
+
+.lumora-item p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+.footer{
+    background-color: #211b1b;
+    color: #fff;
+    padding: 70px 0 0 ;
+}
+.footer .brand h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.footer .brand p{
+    color: #c8c0c0;
+    font-size: 14px;
+    line-height: 1.8;
+    max-width: 330px;
+    margin-bottom: 25px;
+}
+.footer .social{
+    display: flex;
+    gap:10px;
+}
+.footer .social a{
+    width: 38px;
+    height: 38px;
+    border:1px solid #665c5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.footer .social a:hover{
+    background-color: #c85b78;
+    border-color: #c85b78;
+    transform: translateY(-3px);
+}
+.footer-links h4{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 0.3px;
+}
+.footer-links a{
+    display: block;
+    color: #c8c0c0;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+.footer-links a:hover{
+    color: #c85b78;
+}
+.footer-bottom{
+    margin-top: 55px;
+    padding: 20px 0;
+    border-top:  1px solid #403838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-bottom p{
+    color: #999;
+    font-size: 13px;
+    margin: 0;
+}
+.footer-bottom i{
+    color: #ddd;
+    font-size: 24px;
+    margin-left: 8px;
+}
+@media(max-width:768px){
+    .footer{
+        padding-top: 50px;
+    }
+    .footer .brand{
+        margin-bottom: 35px;
+    }
+    .footer-links{
+        margin-bottom: 30px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+.footer .row{
+    align-items: flex-start
+}
+@media(max-width:768px) {
+    .about-hero {
+        margin-top: 40px;
+    }
+}
+

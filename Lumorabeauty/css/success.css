@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #2d2d2d;
+    background-color: #f8f5f2;
+}
+.success-container{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success-card{
+    background-color: #fff;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
+    border: 1px solid #eeeeee;
+}
+.success-icon{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #f8e5e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c85b78;
+    font-size: 40px;
+}
+.success-card h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #2d2d2d;
+}
+.success-card p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+}
+.continue-btn{
+    display: inline-block;
+    padding: 13px 30px;
+    background-color: #c85b78;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.continue-btn:hover{
+    background-color: #a94763;
+    color: white;
+}
+@media (max-width:576px) {
+    .success-card{
+        width: 90%;
+        padding: 35px 20px;
+    }
+    .success-card h1{
+        font-size: 26px;
+    }
+    .success-card p{
+        font-size: 15px;
+    }
+    .success-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 34px;
+    }
+    .continue-btn{
+        padding: 12px 24px;
+    }
+}

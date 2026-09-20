@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Lumora Beauty</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skincare.html">Skincare</a></li>
+                    <li class="nav-item"><a class="nav-link" href="makeup.html">Makeup</a></li>
+                    <li class="nav-item"><a class="nav-link" href="haircare.html">Haircare</a></li>
+                    <li class="nav-item"><a class="nav-link" href="accessories.html">Accessories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="navbar-icons d-flex gap-3">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    <a href="cart.html" class="cart-icon"><i class="fa-solid fa-bag-shopping"></i><span
+                            id="cart-count">0</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="shop">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                </ol>
+            </nav>
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 shop-content">
+                    <h1 class="heading1">Shop Our Collection</h1>
+                    <h2 class="heading2">Discover everything you need to elevate your beauty routine.</h2>
+                    <p>
+                        Discover beauty products made for your everyday glow.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="skincare.html" class="btn shop-all-btn">SHOP ALL PRODUCTS</a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 shop-image">
+                    <img src="images/shop.jpg" alt="Beauty">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="shop-by-category">
+        <div class="container">
+            <div class="shop-heading">
+                <div>
+                    <h2>Shop by category</h2>
+                    <p>Explore our beauty essentials curated for you.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="product">
+                        <div class="product-picture">
+                            <img src="./images/pexels-rarayna-5497303.jpg" alt="Accessories">
+                        </div>
+                        <div class="product-infom">
+                            <p class="product-categorys">Accessories</p>
+                            <a href="accessories.html" class="shop-now">Shop Now <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product">
+                        <div class="product-picture">
+                            <img src="./images/pexels-n-voitkevich-8468017.jpg" alt="haircare">
+                        </div>
+                        <div class="product-infom">
+                            <p class="product-categorys">Hair Care</p>
+                            <a href="haircare.html" class="shop-now">Shop Now <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product">
+                        <div class="product-picture">
+                            <img src="./images/pexels-by-natallia-311038782-15898032.jpg" alt="makeup">
+                        </div>
+                        <div class="product-infom">
+                            <p class="product-categorys">Makeup</p>
+                            <a href="makeup.html" class="shop-now">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product">
+                        <div class="product-picture">
+                            <img src="./images/pexels-polina-kovaleva-8102144.jpg" alt="skincare">
+                        </div>
+                        <div class="product-infom">
+                            <p class="product-categorys">Skin Care</p>
+                            <a href="skincare.html" class="shop-now">Shop Now <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="shop-best-seller">
+        <div class="shop-container">
+            <div class="shop-best-seller-heading">
+                <div>
+                    <h2>Glow-Worthy Favorites</h2>
+                    <p>Explore the product making everyday skincare feel a little more luxurious.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-product-card">
+                        <div class="shop-product-image">
+                            <span class="shop-product-badge">Best Seller</span>
+                            <button class="shop-wishlist-btn">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <img src="./images/shop-serum.jpg" alt="Radiance Glow Serum">
+                        </div>
+                        <div class="shop-product-info">
+                            <p class="shop-product-category">Radiance Glow Serum</p>
+                            <h3>Skincare</h3>
+                            <div class="shop-product-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(24)</span>
+                            </div>
+                            <div class="shop-product-bottom">
+                                <span class="shop-product-price">₹799</span>
+                                <button class="shop-add-cart" data-name="Radiance Glow Serum" data-price="799"
+                                    data-image="./images/shop-serum.jpg">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-product-card">
+                        <div class="shop-product-image">
+                            <span class="shop-product-badge">Popular</span>
+                            <button class="shop-wishlist-btn">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <img src="./images/shop-mosturizer.jpg" alt="Daily Face Moisturizer">
+                        </div>
+                        <div class="shop-product-info">
+                            <p class="shop-product-category">Skincare</p>
+                            <h3>Hydra Glow Moisturizer</h3>
+                            <div class="shop-product-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(18)</span>
+                            </div>
+                            <div class="shop-product-bottom">
+                                <span class="shop-product-price">₹649</span>
+                                <button class="shop-add-cart" data-name="Hydra Glow Moisturizer" data-price="649"
+                                    data-image="./images/shop-mosturizer.jpg">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-product-card">
+                        <div class="shop-product-image">
+                            <span class="shop-product-badge">New</span>
+                            <button class="shop-wishlist-btn">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <img src="./images/shop-sunscreen.jpg" alt="Velvet Matte Lipstick">
+                        </div>
+                        <div class="shop-product-info">
+                            <p class="shop-product-category">Skincare</p>
+                            <h3>Daily Shield Sunscreen SPF 50</h3>
+                            <div class="shop-product-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(31)</span>
+                            </div>
+                            <div class="shop-product-bottom">
+                                <span class="shop-product-price">₹599</span>
+                              <button class="shop-add-cart" data-name="Daily Shield Sunscreen SPF 50" data-price="599"
+                                    data-image="./images/shop-sunscreen.jpg">Add to cart</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-product-card">
+                        <div class="shop-product-image">
+                            <span class="shop-product-badge">Best Seller</span>
+                            <button class="shop-wishlist-btn">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <img src="./images/shop-lipbalm.jpg" alt="Nourishing Hair Oil">
+                        </div>
+                        <div class="shop-product-info">
+                            <p class="shop-product-category">Lip Care</p>
+                            <h3>Nourishing Lip Balm</h3>
+                            <div class="shop-product-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(18)</span>
+                            </div>
+                            <div class="shop-product-bottom">
+                                <span class="shop-product-price">₹299</span>
+                              <button class="shop-add-cart" data-name="Nourishing Lip Balm" data-price="299"
+                                    data-image="./images/shop-lipbalm.jpg">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="shop-beauty">
+        <div class="shop-container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="shop-beauty-image">
+                        <img src="./images/nextbannerimage.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="shop-content">
+                        <span>YOUR DAILY BEAUTY RITUAL</span>
+                        <h2>A Little Luxury, Every Day.</h2>
+                        <p>Thoughtfully chosen beauty essentials to make your everyday routine feel effortlessly
+                            special.</p>
+                        <a href="" class="shop-banner-btn">EXPLORE COLLECTION <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lumora-ritual">
+        <div class="container">
+            <div class="ritual-heading">
+                <span>THE LUMORA RITUAL</span>
+                <h2>Four Steps to Your Everyday Glow</h2>
+                <p>Build a beauty routine that feels effortless, intentional and completely yours.</p>
+            </div>
+        </div>
+        <div class="ritual-steps">
+            <div class="ritual-step">
+                <span>01</span>
+                <div>
+                    <h5>Cleanse</h5>
+                    <p>Refresh and prepare your skin.</p>
+                </div>
+            </div>
+            <div class="ritual-step">
+                <span>02</span>
+                <div>
+                    <h5>Treat</h5>
+                    <p>Give your skin the care it deserves.</p>
+                </div>
+            </div>
+            <div class="ritual-step">
+                <span>03</span>
+                <div>
+                    <h5>Moisturize</h5>
+                    <p>Lock in lasting hydration.</p>
+                </div>
+            </div>
+            <div class="ritual-step">
+                <span>04</span>
+                <div>
+                    <h5>Glow</h5>
+                    <p>Reveal your natural radiance.</p>
+                </div>
+            </div>
+        </div>
+        <div class="ritual-button">
+            <a href="skincare.html" class="btn ritual-btn">EXPLORE THE RITUAL</a>
+        </div>
+    </section>
+    <section class="beauty-journal">
+        <div class="container">
+            <div class="journeal-heading">
+                <span>BEAUTY JOURNAL</span>
+                <h2>Stories for your everyday glow</h2>
+            </div>
+            <div class="journal-grid">
+                <article class="journal-featured">
+                    <img src="./images/pexels-koolshooters-8945920.jpg">
+                    <span>SKINCARE GUIDE</span>
+                    <h3>The Everyday Glow Guide</h3>
+                    <p>Simple beauty habits that make your everyday routine feel better.</p>
+                    <a href="#">READ MORE ➡️</a>
+                </article>
+                <div class="journal-side">
+                    <article class="journal-card">
+                        <img src="./images/pexels-roselene-de-koning-791440941-29864946.jpg">
+                        <div>
+                            <span>SKINCARE</span>
+                            <h3>5 Habits for Healthier-Looking Skin</h3>
+                        </div>
+                    </article>
+                    <article class="journal-card">
+                        <img src="./images/pexels-shiny-diamond-3762876.jpg">
+                        <div>
+                            <span>BEAUTY TIPS</span>
+                            <h3>How to Build Your Perfect Routine</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="final-shop">
+        <div class="container">
+            <div class="final-content">
+                <span>YOUR BEAUTY, YOUR RITUAL</span>
+                <h2>Your Glow, Starts Here.</h2>
+                <p>Discover beauty essentials made for your everyday ritual.</p>
+                <a href="shop.html">SHOP THE COLLECTTION</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="brand">
+                        <h1>Lumora Beauty</h1>
+                        <p>Discover the premium beauty essentials designed to make your everyday routine feel special.
+                        </p>
+                        <div class="social">
+                            <a href="#" arial-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" arial-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" arial-label="Pintrest"><i class="fa-brands fa-pinterest-p"></i></a>
+                            <a href="#" arial-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <a href="index.html">Home</a>
+                        <a href="shop.html">Shop</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-links">
+                        <h4>Categories</h4>
+                        <a href="skincare.html">skincare</a>
+                        <a href="makeup.html">makeup</a>
+                        <a href="haircare.html">haircare</a>
+                        <a href="accessories.html">Accessories</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-links">
+                        <h4>Customer Care</h4>
+                        <a href="#">Shipping & Delivery</a>
+                        <a href="#">Returns & Exchanges</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Teams & Conditions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>@ 2026 Lumora Beauty. All Rights Reserved.</p>
+                <div>
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./js/shop.js"></script>
+</body>
+
+</html>

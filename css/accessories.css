@@ -1,0 +1,505 @@
+.navbar {
+    padding: 18px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+}
+
+.navbar-brand:hover {
+    color: #c85b78;
+}
+
+.nav-link {
+    color: #333;
+    font-size: 14px;
+    margin: 0 7px;
+}
+
+.nav-link:hover {
+    color: #c85b78;
+}
+
+.navbar-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar-icons a:hover {
+    color: #c85b78;
+}
+
+.hero-accessories {
+    padding: 15vh 0px 70px;
+    background-image: url("../images/sectionbackground.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-accessories h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #211b1b;
+    margin-bottom: 15px;
+}
+
+.hero-accessories h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #211b1b;
+    margin-bottom: 15px;
+}
+
+.hero-accessories p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+
+.accessories-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #211b1b;
+    background-color: #211b1b;
+    color: #fff;
+    padding: 11px 22px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.accessories-btn:hover {
+    background-color: transparent;
+    color: #211b1b;
+}
+
+.hero-accessories .col-lg-6 {
+    padding-bottom: 100px;
+}
+
+.shop-by-accessories {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.section-heading {
+    margin-bottom: 45px;
+}
+
+.section-heading p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #c85b78;
+    margin-bottom: 10px;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #211b1b;
+    margin-bottom: 12px;
+}
+
+.section-heading span {
+    font-size: 15px;
+    color: #666;
+}
+
+.accessories-card {
+    position: relative;
+    overflow: hidden;
+    background-color: #f8f5f2;
+}
+
+.accessories-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.accessories-card:hover img {
+    transform: scale(1.05);
+}
+
+.accessories-content {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.accessories-content h3 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #211b1b;
+    margin-bottom: 10px;
+}
+
+.accessories-content a {
+    text-decoration: none;
+    color: #c85b78;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.accessories-content a:hover {
+    color: #211b1b;
+}
+
+.featured-accessories {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.featured-accessories-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.featured-accessories-heading h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #c85b78;
+    margin-bottom: 10px;
+}
+
+.featured-accessories-heading h5 {
+    font-size: 20px;
+    /* font-weight: 500; */
+    color: #211b1b;
+    margin-bottom: 10px;
+}
+
+.featured-accessories-heading p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product-card1 {
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.product-card1:hover {
+    transform: translateY(-5px);
+}
+
+.product-image1 {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    background-color: #f5f2ef;
+}
+
+.product-image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.product-card1:hover .product-image1 img {
+    transform: scale(1.05);
+}
+
+.product-badge1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    background-color: rgba(165, 42, 42, 0.772);
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+.product-info1 {
+    padding: 18px 3px 0;
+}
+
+.product-category1 {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.product-info1 p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #211b1b;
+    margin-bottom: 10px;
+}
+
+.product-rating1 {
+    margin-bottom: 15px;
+}
+
+.product-rating1 i {
+    font-size: 12px;
+}
+
+.product-rating1 span {
+    color: #888;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.product-bottom1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price1 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #211b1b;
+}
+
+.add-cart1 {
+    border: 1px solid #211b1b;
+    background-color: transparent;
+    color: #211b1b;
+    padding: 8px 13px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add-cart1:hover {
+    background-color: #211b1b;
+    color: #fff;
+}
+
+.product-badge2 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    background-color: rgba(0, 128, 0, 0.523);
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+.product-badge3 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    background-color: rgba(235, 83, 83, 0.911);
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+.product-badge4 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    background-color: rgba(165, 42, 42, 0.772);
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+.beauty-on-the-go{
+    padding: 80px 0;
+    background-color: #f5d7df;
+}
+.beauty-on-the-go .row{
+    align-items: center;
+}
+.beauty-on-the-go img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10%;
+}
+.beauty-on-the-go h1{
+    font-size: 38px;
+    font-weight: 500;
+    color: #211b1b;
+    margin-bottom: 15px;
+}
+.beauty-on-the-go h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: #211b1b;
+    margin-bottom: 15px;
+}
+.beauty-on-the-go p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 25px;
+}
+.shop-travel{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #211b1b;
+    background-color: #211b1b;
+    color: #fff;
+    padding: 11px 22px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+.shop-travel:hover{
+    background-color: transparent;
+    color: #211b1b;
+}
+.beauty-on-the-go .col-lg-6:first-child{
+    padding-right: 15px;
+}
+.beauty-on-the-go .col-lg-6:last-child{
+    padding-left: 30px;
+}
+
+.why-choose-lumora {
+    padding: 90px 0;
+    background-color: #ffffff;
+}
+
+.why-choose-lumora .heading {
+    margin-bottom: 50px;
+}
+
+.lumora-item {
+    padding: 15px;
+}
+.why-choose-lumora .heading h2{
+    font-size: 34px;
+    font-weight: 600;
+    color: #211b1b;
+    margin-bottom: 10px;
+}
+.why-choose-lumora .heading p{
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.lumora-item i {
+    font-size: 30px;
+    color: #c85b78;
+    margin-bottom: 20px;
+}
+
+.lumora-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #211b1b;
+    margin-bottom: 10px;
+}
+
+.lumora-item p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+.footer{
+    background-color: #211b1b;
+    color: #fff;
+    padding: 70px 0 0 ;
+}
+.footer .brand h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.footer .brand p{
+    color: #c8c0c0;
+    font-size: 14px;
+    line-height: 1.8;
+    max-width: 330px;
+    margin-bottom: 25px;
+}
+.footer .social{
+    display: flex;
+    gap:10px;
+}
+.footer .social a{
+    width: 38px;
+    height: 38px;
+    border:1px solid #665c5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.footer .social a:hover{
+    background-color: #c85b78;
+    border-color: #c85b78;
+    transform: translateY(-3px);
+}
+.footer-links h4{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 0.3px;
+}
+.footer-links a{
+    display: block;
+    color: #c8c0c0;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+.footer-links a:hover{
+    color: #c85b78;
+}
+.footer-bottom{
+    margin-top: 55px;
+    padding: 20px 0;
+    border-top:  1px solid #403838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-bottom p{
+    color: #999;
+    font-size: 13px;
+    margin: 0;
+}
+.footer-bottom i{
+    color: #ddd;
+    font-size: 24px;
+    margin-left: 8px;
+}
+@media(max-width:768px){
+    .footer{
+        padding-top: 50px;
+    }
+    .footer .brand{
+        margin-bottom: 35px;
+    }
+    .footer-links{
+        margin-bottom: 30px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+.footer .row{
+    align-items: flex-start
+}
